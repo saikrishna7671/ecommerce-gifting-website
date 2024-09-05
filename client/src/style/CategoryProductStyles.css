@@ -1,0 +1,93 @@
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.category .card {
+  background-color: #f9f9f9; 
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.category .card:hover {
+  transform: translateY(-5px); 
+}
+
+.category .card-name-price {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category .card-name-price h5 {
+  margin: 0;
+  font-size: 22px;
+  color: #333; 
+}
+
+.category .card-price {
+  color: #ff7f50; 
+  font-weight: bold;
+}
+
+.category button {
+  border: none;
+  border-radius: 5px;
+  background-color: red; 
+  color: #fff; 
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category button:hover {
+  background-color: #4682b4; 
+}
+
+.category .card-text {
+  color: #555; 
+  padding: 0 20px 20px;
+  font-size: 16px;
+}
+
+.category .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+/* Category product styles */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+.results{
+  font-size: larger;
+  display: block;
+}
+
+.category-container .results-info {
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+.category-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.results-text {
+  font-size: 16px;
+  color: #333;
+}

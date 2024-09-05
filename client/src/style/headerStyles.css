@@ -1,0 +1,21 @@
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 2rem; /* Adjust the size as needed */
+}
+
+.tag-line {
+    margin: 0;
+    font-size: 1.2rem; /* Adjust the size as needed */
+    color: #822828; /* Adjust the color as needed */
+    padding-top: 9px;
+}

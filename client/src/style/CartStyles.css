@@ -1,0 +1,82 @@
+.cart-page {
+  padding: 20px;
+}
+
+.cart-page h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.cart-page p {
+  font-size: 16px;
+}
+
+.cart-page .card {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.cart-page .card img {
+  border-radius: 5px;
+}
+
+.cart-page .card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.cart-page .cart-remove-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-page .cart-summary {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cart-page .cart-summary h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cart-page .cart-summary p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cart-page .cart-summary hr {
+  margin: 15px 0;
+}
+
+.cart-page .cart-summary h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.cart-page .cart-summary h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cart-page .btn-outline-warning {
+  margin-top: 10px;
+}
+
+.cart-page .btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-page .btn-danger:hover {
+  background-color: #c82333;
+}
